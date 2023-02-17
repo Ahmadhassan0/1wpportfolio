@@ -1,0 +1,167 @@
+0000.018 () Opened log file at time: Fri, 17 Feb 2023 06:39:07 +0000 on http://localhost/1wpportfolio
+0000.019 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.1.12 (apache2handler, Windows NT LAPTOP-35RT0032 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.27-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.1.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 72.7M | 76M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.019 () Free space on disk containing Updraft's temporary directory: 58188 MB
+0000.043 () Restore setup, now closing connection and starting restore over AJAX.
+0000.016 () Opened log file at time: Fri, 17 Feb 2023 06:39:09 +0000 on http://localhost/1wpportfolio
+0000.017 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.1.12 (apache2handler, Windows NT LAPTOP-35RT0032 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.27-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.1.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 70.6M | 74M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.018 () Free space on disk containing Updraft's temporary directory: 58188 MB
+0000.034 () Ensuring WP_Filesystem is setup for a restore
+0000.038 () WP_Filesystem is setup and ready for a restore
+0000.050 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_e_events","wp_nextend2_image_storage","wp_nextend2_section_storage","wp_nextend2_smartslider3_generators","wp_nextend2_smartslider3_sliders","wp_nextend2_smartslider3_sliders_xref","wp_nextend2_smartslider3_slides","wp_simply_static_pages","wp_wpforms_tasks_meta","wp_wpvivid_options"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.056 () PHP event: code E_WARNING: mkdir(): File exists (line 545, D:\xampp\htdocs\1wpportfolio\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.085 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.089 () Entity: db
+0000.089 () restore_backup(backup_file=backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-db.gz, type=db, info=a:0:{}, last_one=)
+0000.090 () Unpacking backup... (backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-db.gz, 2.4 Mb)
+0000.091 () PHP event: code E_WARNING: mkdir(): File exists (line 545, D:\xampp\htdocs\1wpportfolio\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.098 () Database successfully unpacked
+0000.099 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.100 () Using direct MySQL access; value of use_mysqli is: 1
+0000.101 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.179 () Max packet size: 32 MB
+0000.180 () Entering maintenance mode
+0000.180 () Enabling Maintenance mode&#8230;
+0000.216 () Backup of: http://localhost/1wpportfolio
+0000.218 () Content URL: http://localhost/1wpportfolio/wp-content
+0000.219 () Uploads URL: http://localhost/1wpportfolio/wp-content/uploads
+0000.219 () Old table prefix: wp_
+0000.219 () Site information: multisite=0
+0000.219 () Site information: sql_mode=NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.222 () New table prefix: 52_
+0000.228 () Processing table (InnoDB): wp_options - will restore as: 52_options
+0000.718 () Atomic restore: dropping original table (wp_options)
+0000.742 () Atomic restore: renaming new table (52_options) to final table name (wp_options)
+0000.753 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.838 () Processing table (InnoDB): wp_users - will restore as: 52_users
+0000.864 () Atomic restore: dropping original table (wp_users)
+0000.877 () Atomic restore: renaming new table (52_users) to final table name (wp_users)
+0000.887 () Processing table (InnoDB): wp_usermeta - will restore as: 52_usermeta
+0000.911 () Atomic restore: dropping original table (wp_usermeta)
+0000.922 () Atomic restore: renaming new table (52_usermeta) to final table name (wp_usermeta)
+0000.931 () Processing table (InnoDB): wp_actionscheduler_actions - will restore as: 52_actionscheduler_actions
+0000.963 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0000.976 () Atomic restore: renaming new table (52_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0000.985 () Processing table (InnoDB): wp_actionscheduler_claims - will restore as: 52_actionscheduler_claims
+0001.003 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0001.012 () Atomic restore: renaming new table (52_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0001.023 () Processing table (InnoDB): wp_actionscheduler_groups - will restore as: 52_actionscheduler_groups
+0001.044 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0001.052 () Atomic restore: renaming new table (52_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0001.061 () Processing table (InnoDB): wp_actionscheduler_logs - will restore as: 52_actionscheduler_logs
+0001.087 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0001.096 () Atomic restore: renaming new table (52_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0001.105 () Processing table (InnoDB): wp_commentmeta - will restore as: 52_commentmeta
+0001.124 () Atomic restore: dropping original table (wp_commentmeta)
+0001.131 () Atomic restore: renaming new table (52_commentmeta) to final table name (wp_commentmeta)
+0001.141 () Processing table (InnoDB): wp_comments - will restore as: 52_comments
+0001.166 () Atomic restore: dropping original table (wp_comments)
+0001.175 () Atomic restore: renaming new table (52_comments) to final table name (wp_comments)
+0001.183 () Processing table (InnoDB): wp_links - will restore as: 52_links
+0001.200 () Atomic restore: dropping original table (wp_links)
+0001.210 () Atomic restore: renaming new table (52_links) to final table name (wp_links)
+0001.219 () Processing table (InnoDB): wp_postmeta - will restore as: 52_postmeta
+0001.442 () Database queries processed: 50 in 1.34 seconds
+0002.230 () Atomic restore: dropping original table (wp_postmeta)
+0002.247 () Atomic restore: renaming new table (52_postmeta) to final table name (wp_postmeta)
+0002.263 () Processing table (InnoDB): wp_posts - will restore as: 52_posts
+0002.690 () Atomic restore: dropping original table (wp_posts)
+0002.705 () Atomic restore: renaming new table (52_posts) to final table name (wp_posts)
+0002.715 () Processing table (InnoDB): wp_term_relationships - will restore as: 52_term_relationships
+0002.742 () Atomic restore: dropping original table (wp_term_relationships)
+0002.751 () Atomic restore: renaming new table (52_term_relationships) to final table name (wp_term_relationships)
+0002.760 () Processing table (InnoDB): wp_term_taxonomy - will restore as: 52_term_taxonomy
+0002.788 () Atomic restore: dropping original table (wp_term_taxonomy)
+0002.804 () Atomic restore: renaming new table (52_term_taxonomy) to final table name (wp_term_taxonomy)
+0002.817 () Processing table (InnoDB): wp_termmeta - will restore as: 52_termmeta
+0002.872 () Atomic restore: dropping original table (wp_termmeta)
+0002.886 () Atomic restore: renaming new table (52_termmeta) to final table name (wp_termmeta)
+0002.897 () Processing table (InnoDB): wp_terms - will restore as: 52_terms
+0002.944 () Atomic restore: dropping original table (wp_terms)
+0002.954 () Database queries processed: 100 in 2.85 seconds
+0002.954 () Atomic restore: renaming new table (52_terms) to final table name (wp_terms)
+0002.968 () Processing table (InnoDB): wp_e_events - will restore as: 52_e_events
+0002.986 () Atomic restore: dropping original table (wp_e_events)
+0002.996 () Atomic restore: renaming new table (52_e_events) to final table name (wp_e_events)
+0003.005 () Processing table (InnoDB): wp_nextend2_image_storage - will restore as: 52_nextend2_image_storage
+0003.022 () Atomic restore: dropping original table (wp_nextend2_image_storage)
+0003.032 () Atomic restore: renaming new table (52_nextend2_image_storage) to final table name (wp_nextend2_image_storage)
+0003.041 () Processing table (InnoDB): wp_nextend2_section_storage - will restore as: 52_nextend2_section_storage
+0003.064 () Atomic restore: dropping original table (wp_nextend2_section_storage)
+0003.071 () Atomic restore: renaming new table (52_nextend2_section_storage) to final table name (wp_nextend2_section_storage)
+0003.080 () Processing table (InnoDB): wp_nextend2_smartslider3_generators - will restore as: 52_nextend2_smartslider3_generators
+0003.096 () Atomic restore: dropping original table (wp_nextend2_smartslider3_generators)
+0003.105 () Atomic restore: renaming new table (52_nextend2_smartslider3_generators) to final table name (wp_nextend2_smartslider3_generators)
+0003.116 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders - will restore as: 52_nextend2_smartslider3_sliders
+0003.145 () Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders)
+0003.156 () Atomic restore: renaming new table (52_nextend2_smartslider3_sliders) to final table name (wp_nextend2_smartslider3_sliders)
+0003.165 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders_xref - will restore as: 52_nextend2_smartslider3_sliders_xref
+0003.185 () Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders_xref)
+0003.193 () Atomic restore: renaming new table (52_nextend2_smartslider3_sliders_xref) to final table name (wp_nextend2_smartslider3_sliders_xref)
+0003.202 () Processing table (InnoDB): wp_nextend2_smartslider3_slides - will restore as: 52_nextend2_smartslider3_slides
+0003.244 () Atomic restore: dropping original table (wp_nextend2_smartslider3_slides)
+0003.251 () Atomic restore: renaming new table (52_nextend2_smartslider3_slides) to final table name (wp_nextend2_smartslider3_slides)
+0003.261 () Processing table (InnoDB): wp_simply_static_pages - will restore as: 52_simply_static_pages
+0003.824 () Atomic restore: dropping original table (wp_simply_static_pages)
+0003.836 () Atomic restore: renaming new table (52_simply_static_pages) to final table name (wp_simply_static_pages)
+0003.847 () Processing table (InnoDB): wp_wpforms_tasks_meta - will restore as: 52_wpforms_tasks_meta
+0003.869 () Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0003.878 () Atomic restore: renaming new table (52_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0003.887 () Processing table (InnoDB): wp_wpvivid_options - will restore as: 52_wpvivid_options
+0004.052 () Unlocking database and leaving maintenance mode
+0004.052 () Disabling Maintenance mode&#8230;
+0004.053 () Atomic restore: dropping original table (wp_wpvivid_options)
+0004.069 () Atomic restore: renaming new table (52_wpvivid_options) to final table name (wp_wpvivid_options)
+0004.081 () Finished: lines processed: 133 in 3.98 seconds
+0004.083 () Cleaning up rubbish...
+0004.186 () Entity: plugins
+0004.186 () restore_backup(backup_file=backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:47:"D:\xampp\htdocs\1wpportfolio/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0004.187 () Unpacking backup... (backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-plugins.zip, 39.7 MB)
+0004.193 () Unzipping backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-plugins.zip to D:/xampp/htdocs/1wpportfolio/wp-content/upgrade/82f877b1/ using UpdraftPlus_ZipArchive, starting index 0
+0006.026 () Unzip progress: 1549 out of 8352 files (3.7 KB, plugins/addons-for-elementor/addons-for-elementor.php)
+0007.677 () Unzip progress: 2550 out of 8352 files (19.1 MB, plugins/bdthemes-prime-slider-lite/admin/module-settings.php)
+0009.675 () Unzip progress: 3551 out of 8352 files (49.4 MB, plugins/elementor/core/editor/promotion.php)
+0011.513 () Unzip progress: 4552 out of 8352 files (68.2 MB, plugins/simply-static/static-files/simply-static-1-1675509922/wp-content/themes/astra/assets/js/minified/frontend.min.js)
+0013.374 () Unzip progress: 5553 out of 8352 files (93.9 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Batch/HistoryBatch.php)
+0015.107 () Unzip progress: 6554 out of 8352 files (105.4 MB, plugins/wpforms-lite/assets/js/components/admin/challenge/challenge-builder.min.js)
+0016.846 () Unzip progress: 7555 out of 8352 files (116.3 MB, plugins/wpvivid-backuprestore/includes/lib/aws-sdk-php-2.8.31/src/Aws/S3/Sync/ChangedFilesIterator.php)
+0018.162 () Unzip progress: 8352 out of 8352 files (122.3 MB, plugins/wpvivid-backuprestore/wpvivid-backuprestore.php)
+0018.169 () Moving old data: filesystem method / updraft_dir is potentially possible
+0018.170 () Moving old data: can potentially use wp_filesystem method / -old
+0018.170 () Moving old data out of the way...
+0024.441 () Top-level entities being moved: addons-for-elementor, all-in-one-wp-migration, astra-sites, bdthemes-prime-slider-lite, elementor, index.php, royal-elementor-addons, simply-static, updraftplus, wpforms-lite, wpvivid-backuprestore
+0024.486 () Moving unpacked backup into place...
+0027.877 () Top-level entities being moved: addons-for-elementor, all-in-one-wp-migration, astra-sites, bdthemes-prime-slider-lite, elementor, index.php, royal-elementor-addons, simply-static, updraftplus, wpforms-lite, wpvivid-backuprestore
+0027.927 () Cleaning up rubbish...
+0027.935 () Entity: themes
+0027.935 () restore_backup(backup_file=backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-themes.zip, type=themes, info=a:3:{s:4:"path";s:46:"D:\xampp\htdocs\1wpportfolio/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0027.937 () Unpacking backup... (backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-themes.zip, 7.6 MB)
+0027.938 () Unzipping backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-themes.zip to D:/xampp/htdocs/1wpportfolio/wp-content/upgrade/01c9992a/ using UpdraftPlus_ZipArchive, starting index 0
+0029.744 () Unzip progress: 1002 out of 1046 files (24.7 MB, themes/astra/index.php)
+0029.832 () Unzip progress: 1046 out of 1046 files (25.4 MB, themes/index.php)
+0029.836 () Moving old data: filesystem method / updraft_dir is potentially possible
+0029.837 () Moving old data: can potentially use wp_filesystem method / -old
+0029.837 () Moving old data out of the way...
+0030.486 () Top-level entities being moved: astra, index.php
+0030.493 () Moving unpacked backup into place...
+0030.977 () Top-level entities being moved: astra, index.php
+0030.985 () Cleaning up rubbish...
+0030.994 () Entity: uploads
+0030.995 () restore_backup(backup_file=backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:47:"D:\xampp\htdocs\1wpportfolio/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0030.996 () Unpacking backup... (backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-uploads.zip, 55.4 MB)
+0030.998 () Unzipping backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-uploads.zip to D:/xampp/htdocs/1wpportfolio/wp-content/upgrade/ac387138/ using UpdraftPlus_ZipArchive, starting index 0
+0033.029 () Unzip progress: 1002 out of 1056 files (54.4 MB, uploads/2023/01/service-3-222x300.jpg)
+0033.147 () Unzip progress: 1056 out of 1056 files (57.3 MB, uploads/wpforms/cache/templates.json)
+0033.153 () Moving old data: filesystem method / updraft_dir is potentially possible
+0033.154 () Moving old data: can potentially use wp_filesystem method / -old
+0033.154 () Moving old data out of the way...
+0033.604 () Moving unpacked backup into place...
+0033.927 () Cleaning up rubbish...
+0033.938 () Entity: others
+0033.938 () restore_backup(backup_file=backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-others.zip, type=others, info=a:2:{s:4:"path";s:39:"D:\xampp\htdocs\1wpportfolio/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0033.940 () Unpacking backup... (backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-others.zip, 0 MB)
+0033.944 () Unzipping backup_2023-02-16-1254_MyPortfolio_a61700c54c4e-others.zip to D:/xampp/htdocs/1wpportfolio/wp-content/upgrade/3b63f754/ using UpdraftPlus_ZipArchive, starting index 0
+0033.960 () Unzip progress: 6 out of 6 files (41 B, wpvivid_staging/index.html)
+0033.977 () Cleaning up rubbish...
+0034.024 () Elementor's clear cache method exists and will be executed
+0034.065 () Restore successful!
+0034.065 () Restore successful
